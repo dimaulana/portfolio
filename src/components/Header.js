@@ -48,7 +48,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('resume')
+              window.open('../files/Resume.pdf')
             }}
           >
             Resume

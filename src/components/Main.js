@@ -200,12 +200,18 @@ class Main extends React.Component {
                       href="https://theapocalypticrace.herokuapp.com/"
                       className="icon fa-link"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <span className="label">Link</span>
                     </a>
                   </li>
                   <li>
-                    <a href="" className="icon fa-github" target="_blank">
+                    <a
+                      href="https://github.com/dimaulana/TheApocRace"
+                      className="icon fa-github"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span className="label">Github</span>
                     </a>
                   </li>
@@ -224,7 +230,12 @@ class Main extends React.Component {
               <div className="card-info">
                 <ul className="icons">
                   <li>
-                    <a href="" className="icon fa-link" target="_blank">
+                    <a
+                      href="https://mqp.nlesd.ca"
+                      className="icon fa-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span className="label">Link</span>
                     </a>
                   </li>
@@ -243,7 +254,12 @@ class Main extends React.Component {
               <div className="card-info">
                 <ul className="icons">
                   <li>
-                    <a href="" className="icon fa-github" target="_blank">
+                    <a
+                      href="https://github.com/dimaulana/DVG-Rental"
+                      className="icon fa-github"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <span className="label">Github</span>
                     </a>
                   </li>
@@ -258,40 +274,6 @@ class Main extends React.Component {
               </div>
             </div>
           </div>
-          {close}
-        </article>
-
-        <article
-          id="resume"
-          className={`${this.props.article === 'resume' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Resume</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-
           {close}
         </article>
       </div>
