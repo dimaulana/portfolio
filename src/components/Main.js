@@ -4,6 +4,9 @@ import oldsam from '../images/oldsam.png'
 import nlesd from '../images/nlesd.png'
 import parkii from '../images/parkii.png'
 import memorial from '../images/mun.png'
+import dvg from '../images/dvg.png'
+import apoc from '../images/apo-race.png'
+import nlesdproj from '../images/nlesd-proj.png'
 
 class Main extends React.Component {
   render() {
@@ -189,9 +192,27 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <div className="card-container">
             <div className="card">
-              <img src={parkii} alt="Parkii" />
+              <img src={apoc} alt="The Apocalyptic Race" />
               <div className="card-info">
-                <p>Jan 2019 - April - 2019</p>
+                <ul className="icons">
+                  <li>
+                    <a
+                      href="https://theapocalypticrace.herokuapp.com/"
+                      className="icon fa-link"
+                      target="_blank"
+                    >
+                      <span className="label">Link</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" className="icon fa-github" target="_blank">
+                      <span className="label">Github</span>
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                  <b>Jan 2019 - Apr 2019</b>
+                </p>
                 <p>
                   2D platformer game created using HTML5, JQuery, Bootstrap,
                   Node.js, Socket and MongoDB.
@@ -199,24 +220,40 @@ class Main extends React.Component {
               </div>
             </div>
             <div className="card">
-              <img src={parkii} alt="Parkii" />
+              <img src={nlesdproj} alt="NLESD Google Sites Template" />
               <div className="card-info">
-                <p>Jan 2019 - April - 2019</p>
+                <ul className="icons">
+                  <li>
+                    <a href="" className="icon fa-link" target="_blank">
+                      <span className="label">Link</span>
+                    </a>
+                  </li>
+                </ul>
                 <p>
-                  2D platformer game created using HTML5, JQuery, Bootstrap,
-                  Node.js, Socket and MongoDB. Used GitHub as a version control
-                  system.
+                  <b>Jan 2018 - Aug 2018</b>
+                </p>
+                <p>
+                  New Google Sites template created for 250+ schools. Utilized
+                  JQuery, Bootstrap and Google API to create dynamic plugins.
                 </p>
               </div>
             </div>
             <div className="card">
-              <img src={parkii} alt="Parkii" />
+              <img src={dvg} alt="DVG Rental" />
               <div className="card-info">
-                <p>Jan 2019 - April - 2019</p>
+                <ul className="icons">
+                  <li>
+                    <a href="" className="icon fa-github" target="_blank">
+                      <span className="label">Github</span>
+                    </a>
+                  </li>
+                </ul>
                 <p>
-                  2D platformer game created using HTML5, JQuery, Bootstrap,
-                  Node.js, Socket and MongoDB. Used GitHub as a version control
-                  system.
+                  <b>Mar 2017 - Apr 2017</b>
+                </p>
+                <p>
+                  Car rental website for a team project. Created using HTML,
+                  CSS, JavaScript, AJAX, PHP and MySQL database.
                 </p>
               </div>
             </div>

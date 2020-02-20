@@ -32,7 +32,7 @@ const Footer = props => (
         </a>
       </li>
     </ul>
-    <p className="copyright">&copy; 2020, Dido Maulana</p>
+    <p className="copyright">&copy; 2020 - Dido Maulana</p>
   </footer>
 )
 

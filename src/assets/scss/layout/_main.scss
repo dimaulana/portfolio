@@ -29,7 +29,7 @@
     );
     @include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
     position: relative;
-    width: 60rem;
+    width: 70rem;
     max-width: 100%;
     background-color: transparentize(_palette(bg), 0.15);
     border-radius: _size(border-radius);
@@ -133,15 +133,44 @@
 
   .card {
     display: block;
-    width: 25%;
-    border: 1px solid red;
-    margin: 5px 5px 5px 5px;
+    width: 17rem;
+    margin: 1rem;
     text-align: center;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
     & img {
       width: 100%;
-      max-width: 200px;
+      max-width: 500px;
+      max-height: 400px;
     }
+
+    & p,
+    b {
+      color: black !important;
+      margin: 0.75rem;
+      text-align: center;
+    }
+
+    & .icons {
+      margin-bottom: 0;
+    }
+
+    & ul.icons li a {
+      color: black;
+      box-shadow: inset 0 0 0 1px black;
+    }
+
+    & ul.icons li a:hover {
+      background-color: rgb(71, 70, 70);
+      color: white;
+    }
+  }
+
+  .card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transform: translateY(-5px);
   }
 
   @include breakpoint(small) {
